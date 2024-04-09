@@ -1,0 +1,14 @@
+/Users/gokhan/Desktop/Projects/bin2dec/bin/Debug/net7.0/bin2dec
+/Users/gokhan/Desktop/Projects/bin2dec/bin/Debug/net7.0/bin2dec.deps.json
+/Users/gokhan/Desktop/Projects/bin2dec/bin/Debug/net7.0/bin2dec.runtimeconfig.json
+/Users/gokhan/Desktop/Projects/bin2dec/bin/Debug/net7.0/bin2dec.dll
+/Users/gokhan/Desktop/Projects/bin2dec/bin/Debug/net7.0/bin2dec.pdb
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/bin2dec.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/bin2dec.AssemblyInfoInputs.cache
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/bin2dec.AssemblyInfo.cs
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/bin2dec.csproj.CoreCompileInputs.cache
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/bin2dec.dll
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/refint/bin2dec.dll
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/bin2dec.pdb
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/bin2dec.genruntimeconfig.cache
+/Users/gokhan/Desktop/Projects/bin2dec/obj/Debug/net7.0/ref/bin2dec.dll
