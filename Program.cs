@@ -1,5 +1,4 @@
 ﻿Console.ForegroundColor = ConsoleColor.Green;
-
 Console.WriteLine("-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-\n");
 Console.ResetColor();
 
@@ -16,6 +15,16 @@ while (isValid == false)
     Transactions();
 }
 
+/// <summary>
+///  <para> This method is responsible for the main transactions of the program. </para>
+///  <para> It calls the GetBinaryNumber() method to get the binary number from the user. </para>
+///  <para> It checks if the binary number is 8 bits long. </para>
+///  <para> If the binary number is not 8 bits long, it calls the Transactions() method again. </para>
+///  <para> If the binary number is 8 bits long, it checks if the binary number contains only 0s and 1s. </para>
+///  <para> If the binary number contains other characters, it calls the Transactions() method again. </para>
+/// <para> If the binary number is valid, it calls the ConvertBinaryToDecimal() method to convert the binary number to decimal. </para>
+/// <para> It then calls the ShowResultMessage() method to display the result. </para>
+///   </summary>
 void Transactions()
 {
     GetBinaryNumber();
@@ -47,7 +56,6 @@ void Transactions()
             ConvertBinaryToDecimal();
             ShowResultMessage();
         }
-
     }
     else
     {
@@ -58,6 +66,12 @@ void Transactions()
     }
 }
 
+/// <summary>
+/// <para> This method converts the binary number to decimal. </para>
+/// <para> It iterates through the binary number from right to left. </para>
+/// <para> It multiplies each digit of the binary number by 2 raised to the power of its position. </para>
+/// <para> It then adds the result to the decimalNumber variable. </para>
+/// </summary>
 void ConvertBinaryToDecimal()
 {
     for (int i = 0; i < binary.Length; i++)
@@ -66,6 +80,10 @@ void ConvertBinaryToDecimal()
     }
 }
 
+
+/// <summary>
+/// <para> This method gets the binary number from the user. </para>
+/// </summary>
 void GetBinaryNumber()
 {
     Console.ForegroundColor = ConsoleColor.Yellow;
@@ -74,6 +92,9 @@ void GetBinaryNumber()
     binary = Console.ReadLine();
 }
 
+/// <summary>
+/// <para> This method displays the result of the conversion. </para>
+/// </summary>
 void ShowResultMessage()
 {
     Console.ForegroundColor = ConsoleColor.DarkCyan;
